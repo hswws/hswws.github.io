@@ -228,6 +228,29 @@
   
 
   
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'true' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"Blah Blah Blah（4MinG remix）","artist":"4MinG - Armin van Buuren","url":"https://bit.ly/3cYtlpT","cover":"/img/cover.jpg"},{"name":"Clsr (Aash Mehta Flip)","artist":"The Chainsmokers,Aash Mehta,Halsey","url":"https://bit.ly/3jleE2o","cover":"https://...cover.jpg"}]
+    });
+  }
+</script>
+
+  
 
   
 
@@ -240,6 +263,30 @@
         <span>Fluid</span></a>
     </div>
     
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
 
     
 
@@ -271,6 +318,8 @@
 
 
 
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
 
 
 
@@ -282,7 +331,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "归档&nbsp;",
+        "归档页&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
