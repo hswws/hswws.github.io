@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>放松音乐</title>
+    <link href="/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/"/>
+    <url>/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h2><blockquote><p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p></blockquote>        <div id="aplayer-lrLVrQyh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-lrLVrQyh"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "KN33S0XXX",              author: "にーそっくすす",              url: "https://pan.chate.info/0:/Musci/NetEase/CloudMusic/%E3%81%AB%E3%83%BC%E3%81%9D%E3%81%A3%E3%81%8F%E3%81%99%E3%81%99/%E7%B2%BE%E9%9C%8A%E5%89%A3%E8%88%9E%E7%A5%AD/%E3%81%AB%E3%83%BC%E3%81%9D%E3%81%A3%E3%81%8F%E3%81%99%E3%81%99%20-%20KN33S0XXX.mp3",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>music</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>介绍？</title>
     <link href="/2020/10/01/Test/"/>
     <url>/2020/10/01/Test/</url>
