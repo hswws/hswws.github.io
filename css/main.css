@@ -1609,6 +1609,21 @@ post-content strong {
 .list-group a ~ p.h5 {
   margin-top: 1rem;
 }
+font.stretch {
+  display: inline-block;
+  -webkit-transform: scale(2, 1);
+/* Safari and Chrome */
+  -moz-transform: scale(2, 1);
+/* Firefox */
+  -ms-transform: scale(2, 1);
+/* IE 9 */
+  -o-transform: scale(2, 1);
+/* Opera */
+  transform: scale(2, 1);
+/* W3C */
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .about-avatar {
   position: relative;
   margin: -8rem auto 1rem;

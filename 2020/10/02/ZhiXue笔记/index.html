@@ -52,7 +52,9 @@
 
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
-<meta name="generator" content="Hexo 5.2.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.2.0"></head>
 
 
 <body>
@@ -189,7 +191,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      338 字
+      399 字
     </span>
   
 
@@ -199,7 +201,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      4
        分钟
     </span>
   
@@ -235,8 +237,9 @@
               <h1 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h1><hr>
 <h2 id="比热容"><a href="#比热容" class="headerlink" title="比热容"></a>比热容</h2><p>(1)定义：一定质量的某种物质，在温度升高时吸收的热量与它的质量和升高的温度乘积之比。</p>
 <p>(2)公式：Q = c m Δt</p>
-<p>(3)单位：<code>焦/(千克·摄氏度)</code>   <code>J /(kg·°C)</code></p>
-<p>(4)物理意义：C<sub>水</sub> = 4.2 × 10<sup>3</sup> J / (kg·°C)</p>
+<p>(3)单位：焦/(千克·摄氏度)     J / (kg·°C)</p>
+<p>(4)物理意义：</p>
+<p>$$<br>C_水 = \frac{4.2 × 10^3 J}{kg·°C}<br>$$</p>
 <ul>
 <li>1kg的水温度升高(降低)1°C所吸收(放出)的热量为 4.2 × 10<sup>3</sup> J 。</li>
 </ul>
@@ -262,6 +265,28 @@
 </ol>
 <p><font color="#0070C0" size="4em"><strong>2.结论：</strong></font>根据实验数据图出的图像可知c<sub>甲</sub> &lt; c<sub>乙</sub>。</p>
 <p><font color="#0070C0" size="4em"><strong>3.注意：</strong></font>加热相同时间，代表吸收热量相同</p>
+<hr>
+<h2 id="热机"><a href="#热机" class="headerlink" title="热机"></a>热机</h2><p><img src="https://s1.ax1x.com/2020/10/02/0la4Vs.png" srcset="/img/loading.gif" alt="img02" title="img02"></p>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>燃料燃烧时<br/>化学能 <font size="6em" color="#CC0001" class="stretch">⇰</font> 内能</td>
+<td>塞子冲出去时<br/>内能 <font size="6em" color="#CC0001" class="stretch">⇰</font> 机械能能</td>
+</tr>
+<tr>
+<td>热机原理</td>
+<td>热机定义</td>
+</tr>
+<tr>
+<td>化学能<font size="6em" color="#CC0001" class="stretch">⇰</font>内能<font size="6em" color="#CC0001" class="stretch">⇰</font>机械能</td>
+<td>把燃料燃烧时释放的内能转化为机械能</td>
+</tr>
+</tbody></table>
 
             </div>
             <hr>
@@ -515,6 +540,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.staticfile.org/mathjax/3.0.5/es5/tex-svg.js" ></script>
+
+  
 
 
 
