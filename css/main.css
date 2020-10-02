@@ -1624,6 +1624,16 @@ font.stretch {
   margin-right: 10px;
   margin-left: 10px;
 }
+.ook {
+  font-weight: bold;
+  size: 4em;
+}
+.colorb {
+  color: #b9e9f7;
+}
+.colorr {
+  color: #f00;
+}
 .about-avatar {
   position: relative;
   margin: -8rem auto 1rem;
