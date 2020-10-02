@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>放松音乐</title>
+    <title>聆听音乐</title>
     <link href="/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/"/>
     <url>/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h2><blockquote><p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p></blockquote>        <div id="aplayer-AifzEveg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-AifzEveg"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "KN33S0XXX",              author: "にーそっくすす",              url: "https://pan.chate.info/0:/Musci/NetEase/CloudMusic/%E3%81%AB%E3%83%BC%E3%81%9D%E3%81%A3%E3%81%8F%E3%81%99%E3%81%99/%E7%B2%BE%E9%9C%8A%E5%89%A3%E8%88%9E%E7%A5%AD/%E3%81%AB%E3%83%BC%E3%81%9D%E3%81%A3%E3%81%8F%E3%81%99%E3%81%99%20-%20KN33S0XXX.mp3",              pic: "https://pan.chate.info/1:/Image/5927467185783649.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>    <div id="aplayer-ycVAWNvD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="60198" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h2><blockquote><p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p></blockquote>    <div id="aplayer-HDHxYCnD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2392280562" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#677E84"    ></div>]]></content>
     
     
     
