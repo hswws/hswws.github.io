@@ -1,14 +1,24 @@
-var gitalk = new Gitalk({
-  clientID: '2397b17013f336884ee7',
-  clientSecret: '9c1becaf4699f8ac346a77b39d9a8511c4d24ccc',
-  repo: 'http://blog.zte.icu',
-  owner: 'hswws',
-  admin: ['hswws'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
+/* gitalk 代码片断 begin -->
+<div id="gitalk-container"></div>
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+      var gitalk = new Gitalk({
+        id: '{{ .Date }}',
+        title: '{{ .Title }}',
+        clientID: '2397b17013f336884ee7',
+        clientSecret: '9c1becaf4699f8ac346a77b39d9a8511c4d24ccc',
+        repo: 'ms',
+        owner: 'hswws',
+        admin: ['hswws'],
+        body: decodeURI(location.href),
+      });
+      gitalk.render('gitalk-container');
+ </script>
+<!-- gitalk 代码片断 end */
 
-gitalk.render('gitalk-container')
+
 
 // eslint-disable-next-line no-unused-vars
 function waitElementVisible(targetId, callback) {
