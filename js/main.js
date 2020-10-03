@@ -1,3 +1,18 @@
+var gitalk = new Gitalk({
+  clientID: '2397b17013f336884ee7',
+  clientSecret: '9c1becaf4699f8ac346a77b39d9a8511c4d24ccc',
+  repo: 'http://blog.zte.icu',
+  owner: 'hswws',
+  admin: ['hswws'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+
+
+
+
 // 监听滚动事件
 function listenScroll(callback) {
   // eslint-disable-next-line no-undef
