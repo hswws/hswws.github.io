@@ -241,7 +241,7 @@
 <p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p>
 </blockquote>
 
-    <div id="aplayer-TXAtcYJI" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-hHemeKZN" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2392280562" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#677E84" data-volume="0.3"
     ></div>
             </div>
@@ -288,7 +288,7 @@
             
           </article>
           <div id="gitalk-container"></div>
-          <script type="text/javascript">
+          <!--script type="text/javascript">
             var gitalk = new Gitalk({
               id: '{{ .Date }}',
               title: '{{ .Title }}',
@@ -299,6 +299,21 @@
               admin: ['hswws'],
               id: location.pathname, // Ensure uniqueness and length less than 50
               distractionFreeMode: true // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+          </script-->
+          <script>
+            var gitalk = new Gitalk({
+              id: '{{ .Date }}',
+              title: '{{ .Title }}',
+              clientID: '2397b17013f336884ee7',
+              clientSecret: '9c1becaf4699f8ac346a77b39d9a8511c4d24ccc',
+              repo: 'ms',
+              owner: 'hswws',
+              admin: ['hswws'],
+              id: location.pathname,      // Ensure uniqueness and length less than 50
+              distractionFreeMode: true  // Facebook-like distraction free mode
             })
 
             gitalk.render('gitalk-container')
