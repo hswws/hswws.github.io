@@ -8,7 +8,7 @@
     <link href="/2020/11/19/Video/"/>
     <url>/2020/11/19/Video/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><video controls width="250">    <source src="https://production.cloudflare.docker.com/registry-v2/docker/registry/v2/blobs/sha256/ab/ab953394cf7cafc3ae13f8be5ce97c4dfe08011f8ae908c89ac565cbb510af7f/data?verify=1605799052-saQOxPJmBiKXstBDYV1pyXVY740%3D"            type="video/mp4">    Sorry, your browser doesn't support embedded videos.</video>]]></content>
     
     
     
@@ -72,7 +72,7 @@
     <link href="/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/"/>
     <url>/2020/10/02/%E6%94%BE%E6%9D%BE%E9%9F%B3%E4%B9%90/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h2><blockquote><p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p></blockquote>    <div id="aplayer-QwqVMvJX" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2392280562" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#677E84" data-volume="0.3"    ></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h2><blockquote><p>音乐和旋律，足以引导人们走进灵魂的秘境。——（古希腊哲学家）苏格拉底</p></blockquote>    <div id="aplayer-VCgmOdOB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2392280562" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#677E84" data-volume="0.3"    ></div>]]></content>
     
     
     
